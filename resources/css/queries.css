@@ -1,0 +1,97 @@
+@media only screen and (max-width: 1200px) {
+  .headr-text-box {
+    position: absolute;
+    width: 100%;
+    padding: 0 2%;
+  }
+
+  .row {
+    padding: 0 2%;
+  }
+}
+
+@media only screen and (max-width: 1023px) {
+  body {
+    font-size: 18px;
+  }
+  section {
+    padding: 60px 0;
+  }
+  .logo {
+    font-size: 20px;
+    margin-top: 53px;
+  }
+  .long-copy {
+    width: 80%;
+    margin-left: 10%;
+  }
+  .divisions p,
+  .second-division p {
+    text-align: center;
+    font-size: 15px;
+  }
+  .offices h3 {
+    font-size: 14px;
+    margin-bottom: 40px;
+  }
+  .offices p {
+    font-size: 13px;
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  body {
+    font-size: 16px;
+  }
+  section {
+    padding: 30px;
+  }
+  .row,
+  .headr-text-box {
+    padding: 0 4%;
+  }
+  .col {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  .about p {
+    padding-bottom: 20px;
+  }
+  .offices .col {
+    padding-bottom: 25px;
+    border-bottom: solid black 1px;
+  }
+}
+
+@media only screen and (max-width: 722px) {
+  .logo {
+    font-size: 30px;
+    display: block;
+  }
+  .main-nav {
+    font-size: 16px;
+    float: none;
+    margin-left: 10px;
+  }
+}
+
+@media only screen and (max-width: 640px) {
+  .logo {
+    font-size: 50px;
+    margin-left: 0 auto;
+  }
+  .main-nav {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .logo {
+    font-size: 30px;
+  }
+  .headr-text-box {
+    font-size: 11px;
+  }
+}
+
